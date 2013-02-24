@@ -1,0 +1,9 @@
+Very basic implementation of a high-performance Tetris engine written in Google Go.
+
+This limited implementation calculates the result of a drop in tetris at of a given piece, onto a given board.
+
+This is not intended for human players, (has no interface). 
+
+It is however intended for use in internal simulations of the result of a Tetris drop in bots or for training Tetris AI's
+
+By using a partial-bitboard representation of the Tetris board & a few other optimisations the code is designed with speed in mind, to allow for the maximum number of move evaluations in a given period of time (for example performing a search on the game-tree from the current position for optimal plays)
