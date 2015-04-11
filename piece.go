@@ -1,4 +1,4 @@
-package tetris
+package gotetris
 
 type Piece struct {
 	Id           rune
